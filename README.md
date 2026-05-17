@@ -1,13 +1,13 @@
-# ProjectPlanning-
+# ProjectPlanning
 Project planning for learning robot autonomy engineering 
 
 ---
-# Goal- 
+# Goal
 - Create a robot that can peform mapping of the environment
 - with an image taken from the environement, robot able to move the location
 
 ---
-# Planning- 
+# Planning
 ## Simulation stage
 - run gazebo to run simulation world
 - spawn a robot
