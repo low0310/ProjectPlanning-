@@ -2,22 +2,25 @@
 Project planning for learning robot autonomy engineering 
 
 ---
-# Goal
-- Create a robot that can peform mapping of the environment
-- with an image taken from the environement, robot able to move the location
+# Final Goal
+- A drone that can perform inspection on object (car, tree etc.)
 
----
-# Planning
-## Simulation stage
-- run gazebo to run simulation world
-- spawn a robot
-- perform "map scanning" and SLAM to generate a map
-- randomly capture an image in the map and perform localization with map created
-- perform path planning
-- move robot to the image position
+## Check list
+### Simulation Stage
+- [x] Learn basic ROS2 and Gazebo for simulation
+- [ ] Hands on with ROS2. Simualate robot to randomly move around and collect data ([Github: ROS2_RandomWorldMapping](https://github.com/low0310/ROS2_RandomWorldMapping)) 
+- [ ] Integrate ORB-SLAM 3 with ROS2 (as a practice), to perform real time SLAM application in simulation
+- [ ] Learn and perform environment scanning
+- [ ] Learn and perform path planning
+- [ ] Learn drone simulation with ROS2 and Gazebo
+- [ ] Using drone to collect data (point cloud and image) of an object
+
+### Real World Stage 
+- [ ] buy/design an drone robot (hardware design is not the main goal here)
+- [ ] learn drone control knowledge
+- [ ] perform drone data collection
+- [ ] choose an object and set an inspection goal and start develop inspection algorithm (rule based or deep learning)
+- [ ] SLAM, plan planning, drone control knowledge ready, further explore on more inspection target
 
 
-## Real world stage
-- create a real robot that can move in real life
-- use iphone as camera, IMU and lidar sensor, so need to perform some sort of development
-- perform mapping, localisation and path planning task
+
