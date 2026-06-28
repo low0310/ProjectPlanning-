@@ -8,8 +8,8 @@ Project planning for learning robot autonomy engineering
 ## Check list
 ### Simulation Stage
 - [x] Learn basic ROS2 and Gazebo for simulation
-- [ ] Hands on with ROS2. Simualate robot to randomly move around and collect data ([Github: ROS2_RandomWorldMapping](https://github.com/low0310/ROS2_RandomWorldMapping)) 
-- [ ] Integrate ORB-SLAM 3 with ROS2 (as a practice), to perform real time SLAM application in simulation
+- [x] Hands on with ROS2. Simualate robot to move around the world, avoid obstacle and collect data ([Github: ROS2_RandomWorldMapping](https://github.com/low0310/ROS2_RandomWorldMapping)) 
+- [ ] **[ON GOING]** Hands on ORB SLAM 3, to identify identical object in the space with spacial information () 
 - [ ] Learn and perform environment scanning
 - [ ] Learn and perform path planning
 - [ ] Learn drone simulation with ROS2 and Gazebo
